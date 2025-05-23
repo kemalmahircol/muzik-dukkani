@@ -43,6 +43,7 @@ ul {
   white-space: nowrap;
   direction: ltr;
   -webkit-font-feature-settings: 'liga';
+  font-feature-settings: "liga" on;
   -webkit-font-smoothing: antialiased;
   vertical-align: middle;
 }
