@@ -1,0 +1,57 @@
+body {
+  background-color: azure;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: crimson;
+}
+
+h2 {
+  color: purple;
+}
+
+a {
+  color: purple;
+  margin: 0 10px;
+}
+
+ul {
+  list-style-position: inside;
+  text-align: center;
+}
+
+.content {
+  margin-top: 30px;
+}
+
+.yellow-text {
+  color: goldenrod;
+  font-weight: bold;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+  vertical-align: middle;
+}
+
+.spin {
+  animation: spin 6s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
